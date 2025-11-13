@@ -9,10 +9,6 @@ class NativeBridge {
         }
     }
 
-    /**
-     * Native method to process the frame.
-     * inputAddr: Memory address of the input Mat (Image)
-     * outputAddr: Memory address where the result will be stored
-     */
+
     external fun processFrame(inputAddr: Long, outputAddr: Long)
 }
