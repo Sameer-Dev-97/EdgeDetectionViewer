@@ -19,14 +19,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-
-    // 3. FORCED JAVA 17 (Fixes the JVM target error)
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
                 targetCompatibility JavaVersion.VERSION_17
     }
 
-    // 4. FORCED KOTLIN 17 (Fixes the JVM target error)
     kotlinOptions {
         jvmTarget = '17'
     }
