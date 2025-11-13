@@ -5,7 +5,7 @@ A cross-platform research and development project demonstrating **real-time edge
 
 This project was developed as part of the **Software Engineering Intern (R&D) Technical Assessment**, focusing on real-time processing, native integration, and cross-platform architecture.
 
----
+
 
 ## ✨ Table of Contents  
 1. [Overview]
